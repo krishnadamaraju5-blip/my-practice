@@ -12,5 +12,7 @@ echo "Home directory of the user: $HOME"
 echo "Process ID (PID) of the current script: $$"
 sleep 10 &
 echo "Process ID (PID) of the current background process: $!"
+wait $!
 echo "Line number: $LINENO"
+echo "previous command exit status: $?"
 echo "Total time taken by the script: $SECONDS"
