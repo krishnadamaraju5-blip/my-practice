@@ -1,3 +1,5 @@
+
+# When i want to give through command line
 #!/bin/bash
 
 var1=$1
